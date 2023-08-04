@@ -1181,11 +1181,11 @@ textarea.input {
   max-width: 400px;
 }
 
-.techno__title._rel {
+.techno__title._first {
   position: relative;
 }
 
-.techno__title._rel::before {
+.techno__title._first::before {
   content: "";
   position: absolute;
   width: 190px;
@@ -1196,6 +1196,24 @@ textarea.input {
           transform: translate(0%, -50%);
   right: -80%;
   background: url("../img/Line.svg") center center no-repeat;
+  background-size: cover;
+}
+
+.techno__title._second {
+  position: relative;
+}
+
+.techno__title._second::before {
+  content: "";
+  position: absolute;
+  width: 370px;
+  height: 2px;
+  top: 50%;
+  -webkit-transform: translate(0%, -50%);
+      -ms-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+  right: 110%;
+  background: url("../img/Line3.svg") center center no-repeat;
   background-size: cover;
 }
 
