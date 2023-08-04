@@ -243,6 +243,24 @@
             }));
         }
     }), 0);
+    if (document.querySelector(".product__slider")) {
+        var swiper = new Swiper(".product__slider", {
+            spaceBetween: 10,
+            slidesPerView: 4,
+            freeMode: true,
+            watchSlidesProgress: true
+        });
+        new Swiper(".product__slider2", {
+            spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            },
+            thumbs: {
+                swiper
+            }
+        });
+    }
     window["FLS"] = true;
     isWebp();
     spollers();
