@@ -1932,6 +1932,7 @@ textarea.input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 30px;
 }
 
 .plus__item {
@@ -2045,12 +2046,14 @@ textarea.input {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  gap: 30px;
 }
 
 .specs__img-box {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 47%;
           flex: 0 1 47%;
+  text-align: center;
 }
 
 .spollers__specs-item {
@@ -2061,12 +2064,18 @@ textarea.input {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
+  gap: 20px;
 }
 
 .spollers__specs-text {
   font-size: 20px;
   line-height: 160%;
   /* 160% */
+  min-width: 170px;
+}
+
+.spollers__specs-text:last-child {
+  text-align: right;
 }
 
 .info {
@@ -2335,6 +2344,12 @@ textarea.input {
     display: none;
   }
 
+  .spollers._specs {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+  }
+
   .evolve__box {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -2361,6 +2376,101 @@ textarea.input {
     padding-top: 20px;
     padding-left: 15px;
     padding-right: 25px;
+  }
+
+  .product__top {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .product__slider2 {
+    width: 100%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+
+  .product__top-right {
+    padding-left: 15px;
+  }
+
+  .product__bottom {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .product__slider {
+    width: 100%;
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
+
+  .product__bottom-left {
+    width: 100%;
+  }
+
+  .plus__box {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .plus__item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 47%;
+            flex: 0 1 47%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .wheels__box._line2::before {
+    display: none;
+  }
+
+  .wheels__box._line3::before {
+    display: none;
+  }
+
+  .wheels__box {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 50px;
+  }
+
+  .wheels__grey {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
+
+  .wheels__img-box {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+  }
+
+  .specs__box {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .specs__img-box {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
   }
 
   .privacy__title {
@@ -2471,6 +2581,20 @@ textarea.input {
     font-size: 50px;
     padding-right: 0;
   }
+
+  .product__name {
+    font-size: 60px;
+  }
+
+  .plus__item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+  }
+
+  .wheels__title {
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 29.99875em) {
@@ -2487,6 +2611,10 @@ textarea.input {
     right: 50%;
   }
 
+  .spollers._specs {
+    text-align: center;
+  }
+
   .spollers__body {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -2496,6 +2624,39 @@ textarea.input {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 100%;
             flex: 1 1 100%;
+  }
+
+  .product__bottom-left {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .product__item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+  }
+
+  .spollers__specs-item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+
+  .spollers__specs-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .spollers__specs-text:last-child {
+    text-align: center;
+  }
+
+  .spollers__specs-text {
+    min-width: 0px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    text-align: center;
   }
 }
 
