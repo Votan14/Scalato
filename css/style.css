@@ -680,7 +680,7 @@ html.menu-open .menu__body {
   color: var(--white, #fff);
   /* H1 */
   font-family: Aeonik Fono TRIAL;
-  font-size: 12vw;
+  font-size: 5vw;
   font-weight: 300;
   line-height: 110%;
   /* 110px */
@@ -2297,6 +2297,10 @@ textarea.input {
             flex: 1 1 100%;
   }
 
+  .secmain__title {
+    font-size: 8vw;
+  }
+
   .spec__item {
     text-align: center;
   }
@@ -2501,6 +2505,10 @@ textarea.input {
     transition: height 0.2s;
   }
 
+  .secmain__title {
+    font-size: 10vw;
+  }
+
   .spec__title span {
     font-size: 60px;
   }
@@ -2609,6 +2617,10 @@ textarea.input {
         -ms-flex-direction: row;
             flex-direction: row;
     right: 50%;
+  }
+
+  .secmain__title {
+    font-size: 12vw;
   }
 
   .spollers._specs {
