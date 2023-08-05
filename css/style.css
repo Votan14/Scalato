@@ -2153,6 +2153,21 @@ textarea.input {
   /* 133.333% */
 }
 
+.info__mob {
+  display: none;
+}
+
+.info__mob-languages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+
 @media (max-width: 79.375em) {
   .fp-bullets {
     right: 1.25rem;
@@ -2160,6 +2175,10 @@ textarea.input {
 }
 
 @media (max-width: 61.99875em) {
+  .header__link {
+    display: none;
+  }
+
   .menu__body {
     position: fixed;
     width: 100%;
@@ -2168,10 +2187,25 @@ textarea.input {
     left: -100%;
     overflow: auto;
     z-index: 4;
-    background: -webkit-gradient(linear, left bottom, left top, from(#262961), to(#262961)), #fff;
-    background: linear-gradient(0deg, #262961, #262961), #fff;
+    background: #000;
     -webkit-transition: left 0.3s ease 0s;
     transition: left 0.3s ease 0s;
+  }
+
+  .menu__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 150px 20px 20px 20px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 50px;
+  }
+
+  .menu__link.header2-link {
+    color: #fff;
   }
 
   .icon-menu {
@@ -2180,6 +2214,19 @@ textarea.input {
     width: 1.875rem;
     height: 1.125rem;
     z-index: 5;
+  }
+
+  .icon-menu._white span,
+  .icon-menu._white::before,
+  .icon-menu._white::after {
+    content: "";
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    height: 0.125rem;
+    background-color: #fff;
   }
 
   .icon-menu span,
@@ -2216,6 +2263,7 @@ textarea.input {
     -webkit-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
             transform: rotate(-45deg);
+    background-color: #fff;
   }
 
   .menu-open .icon-menu::after {
@@ -2223,6 +2271,18 @@ textarea.input {
     -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
             transform: rotate(45deg);
+    background-color: #fff;
+  }
+
+  .info__mob {
+    display: block;
+    margin-top: 50px;
+    color: var(--white, #fff);
+    text-align: center;
+    font-size: 16px;
+    line-height: 110%;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
   }
 }
 
