@@ -472,12 +472,17 @@ summary {
 }
 
 .header {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: fixed;
   width: 100%;
+  left: 0;
+  top: 0;
+  background: var(--dark-grey-1, #282828);
   padding: 40px;
   z-index: 10;
+}
+
+.header._header2 {
+  background: #fff;
 }
 
 .header__box {
@@ -1152,7 +1157,6 @@ html.menu-open .menu__body {
 }
 
 .checkbox__input:checked + .checkbox__label:before {
-  background-color: #fff;
   background: url("../img/check.jpg") center center no-repeat;
   background-size: cover;
 }
@@ -2419,11 +2423,7 @@ textarea.input {
 }
 
 @media (max-width: 61.99875em) {
-  .header {
-    position: fixed;
-    width: 100%;
-    left: 0;
-    top: 0;
+  .header._header2 {
     background: var(--dark-grey-1, #282828);
   }
 
