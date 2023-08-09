@@ -387,6 +387,11 @@ summary {
   font-size: 16px;
 }
 
+.swiper-initialized {
+  -ms-touch-action: pan-y;
+      touch-action: pan-y;
+}
+
 .header {
   position: fixed;
   width: 100%;
