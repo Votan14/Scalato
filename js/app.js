@@ -3328,7 +3328,6 @@
         if (document.querySelector(".secmain__slider")) new swiper_core_Swiper(".secmain__slider", {
             modules: [ Pagination ],
             direction: "vertical",
-            autoHeight: true,
             spaceBetween: 0,
             pagination: {
                 el: ".swiper-pagination",

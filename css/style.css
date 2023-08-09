@@ -666,10 +666,6 @@ html.menu-open .menu__body {
   color: var(--white, #fff);
 }
 
-.secmain__full-box {
-  position: relative;
-}
-
 .secmain__bg {
   position: absolute;
   width: 100%;
@@ -719,6 +715,10 @@ html.menu-open .menu__body {
 .secmain .swiper {
   height: 100%;
   max-height: 904px;
+  position: relative;
+}
+
+.secmain .secmain__slide {
   position: relative;
 }
 
@@ -1388,7 +1388,7 @@ textarea.input {
 }
 
 .req {
-  background: url("../img/17.jpg") right bottom no-repeat;
+  background: url("../img/17.jpg") 50% 50% no-repeat;
   background-size: cover;
   color: var(--black, #000);
 }
@@ -2610,31 +2610,19 @@ textarea.input {
     display: none;
   }
 
-  .our__list-item {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 100%;
-            flex: 1 1 100%;
-  }
-
   .our__list-item._three {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 100%;
             flex: 1 1 100%;
   }
 
-  .req {
-    display: none;
+  .specific__block {
+    margin: 0;
   }
 
   .req__box {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-  }
-
-  .req__texts {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
   }
 
   .techno__title._first::before {
@@ -2818,12 +2806,23 @@ textarea.input {
     margin-top: -100px;
   }
 
-  .secmain__container {
-    padding-top: 385px;
+  .secmain__bg {
+    background: url("../img/01.jpg") 75% 50px no-repeat;
+    background-size: cover;
   }
 
   .secmain__title {
     font-size: 60px;
+    font-weight: 400;
+  }
+
+  .secmain .swiper-pagination {
+    display: none;
+  }
+
+  .now__list {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .now__list-item {
@@ -2836,9 +2835,32 @@ textarea.input {
     font-size: 54px;
   }
 
+  .our {
+    padding-bottom: 90px;
+  }
+
   .our__list {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .our__list-item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+  }
+
+  .specific__bg {
+    width: 100%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+  }
+
+  .request {
+    padding-top: 60px;
+    padding-bottom: 73px;
   }
 
   .request__box {
@@ -2862,12 +2884,40 @@ textarea.input {
             flex: 1 1 100%;
   }
 
+  .request__btn-box {
+    right: 30px;
+  }
+
+  .req {
+    background: url("../img/40.jpg") 0 50% no-repeat;
+    background-size: cover;
+  }
+
+  .req__texts {
+    padding-top: 57px;
+    padding-bottom: 320px;
+  }
+
+  .materials {
+    padding-top: 160px;
+    padding-bottom: 160px;
+  }
+
+  .techno__block {
+    padding-top: 235px;
+  }
+
   .techno__title {
     font-size: 40px;
   }
 
   .aboutmain {
     padding-top: 250px;
+  }
+
+  .aboutmain__bg {
+    font-size: 16vw;
+    top: 170px;
   }
 
   .aboutmain__box {
@@ -2882,6 +2932,19 @@ textarea.input {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
+  }
+
+  .aboutmain__text {
+    max-width: 80%;
+  }
+
+  .aboutmain__form-text {
+    font-size: 16px;
+  }
+
+  .find {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 
   .find__box {
@@ -2901,6 +2964,15 @@ textarea.input {
             flex: 1 1 100%;
   }
 
+  .find__title._small {
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+
+  .find__title {
+    font-size: 40px;
+  }
+
   .find__right._big {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 100%;
@@ -2913,16 +2985,14 @@ textarea.input {
             flex: 1 1 100%;
   }
 
-  .spollers__title {
-    font-size: 24px;
-  }
-
   .evolve {
     padding-top: 300px;
   }
 
   .evolve__bg {
     top: 160px;
+    font-size: 16vw;
+    font-weight: 400;
   }
 
   .evolve__box {
@@ -2936,12 +3006,20 @@ textarea.input {
             flex: 1 1 100%;
   }
 
+  .evolve__large {
+    font-size: 24px;
+  }
+
   .clients__bg {
     height: 280px;
   }
 
+  .clients__content {
+    padding-bottom: 57px;
+  }
+
   .clients__title {
-    font-size: 50px;
+    font-size: 40px;
     padding-right: 0;
   }
 
@@ -2970,7 +3048,11 @@ textarea.input {
   }
 
   .info {
-    right: -170px;
+    right: -180px;
+  }
+
+  .privacy__text {
+    font-size: 16px;
   }
 }
 
@@ -2986,6 +3068,18 @@ textarea.input {
         -ms-flex-direction: row;
             flex-direction: row;
     right: 50%;
+  }
+
+  .secmain__container {
+    padding-top: 265px;
+  }
+
+  .secmain .swiper {
+    max-height: 804px;
+  }
+
+  .our__link {
+    height: 358px;
   }
 
   .specific__block {
