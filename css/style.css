@@ -3,24 +3,8 @@
 @font-face {
   font-family: Aeonik;
   font-display: swap;
-  src: url("../fonts/Aeonik-BlackItalic.woff2") format("woff2"), url("../fonts/Aeonik-BlackItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Aeonik;
-  font-display: swap;
   src: url("../fonts/Aeonik-Bold.woff2") format("woff2"), url("../fonts/Aeonik-Bold.woff") format("woff");
   font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Aeonik;
-  font-display: swap;
-  src: url("../fonts/Aeonik-BoldItalic.woff2") format("woff2"), url("../fonts/Aeonik-BoldItalic.woff") format("woff");
-  font-weight: 400;
   font-style: normal;
 }
 
@@ -35,93 +19,13 @@
 @font-face {
   font-family: Aeonik;
   font-display: swap;
-  src: url("../fonts/Aeonik-LightItalic.woff2") format("woff2"), url("../fonts/Aeonik-LightItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Aeonik;
-  font-display: swap;
-  src: url("../fonts/Aeonik-Medium.woff2") format("woff2"), url("../fonts/Aeonik-Medium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Aeonik;
-  font-display: swap;
-  src: url("../fonts/Aeonik-Air.woff2") format("woff2"), url("../fonts/Aeonik-Air.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Aeonik;
-  font-display: swap;
-  src: url("../fonts/Aeonik-MediumItalic.woff2") format("woff2"), url("../fonts/Aeonik-MediumItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Aeonik;
-  font-display: swap;
-  src: url("../fonts/Aeonik-AirItalic.woff2") format("woff2"), url("../fonts/Aeonik-AirItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Aeonik;
-  font-display: swap;
   src: url("../fonts/Aeonik-Regular.woff2") format("woff2"), url("../fonts/Aeonik-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: Aeonik;
-  font-display: swap;
-  src: url("../fonts/Aeonik-RegularItalic.woff2") format("woff2"), url("../fonts/Aeonik-RegularItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Aeonik;
-  font-display: swap;
-  src: url("../fonts/Aeonik-Black.woff2") format("woff2"), url("../fonts/Aeonik-Black.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Aeonik Fono TRIAL;
-  font-display: swap;
-  src: url("../fonts/AeonikFono-Air.woff2") format("woff2"), url("../fonts/AeonikFono-Air.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Aeonik;
-  font-display: swap;
-  src: url("../fonts/Aeonik-ThinItalic.woff2") format("woff2"), url("../fonts/Aeonik-ThinItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Aeonik;
-  font-display: swap;
-  src: url("../fonts/Aeonik-Thin.woff2") format("woff2"), url("../fonts/Aeonik-Thin.woff") format("woff");
-  font-weight: 100;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Aeonik Fono TRIAL;
+  font-family: AeonikFono;
   font-display: swap;
   src: url("../fonts/AeonikFono-Black.woff2") format("woff2"), url("../fonts/AeonikFono-Black.woff") format("woff");
   font-weight: 900;
@@ -129,7 +33,15 @@
 }
 
 @font-face {
-  font-family: Aeonik Fono TRIAL;
+  font-family: AeonikFono;
+  font-display: swap;
+  src: url("../fonts/AeonikFono-Air.woff2") format("woff2"), url("../fonts/AeonikFono-Air.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: AeonikFono;
   font-display: swap;
   src: url("../fonts/AeonikFono-Bold.woff2") format("woff2"), url("../fonts/AeonikFono-Bold.woff") format("woff");
   font-weight: 700;
@@ -137,15 +49,7 @@
 }
 
 @font-face {
-  font-family: Aeonik Fono TRIAL;
-  font-display: swap;
-  src: url("../fonts/AeonikFono-Regular.woff2") format("woff2"), url("../fonts/AeonikFono-Regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Aeonik Fono TRIAL;
+  font-family: AeonikFono;
   font-display: swap;
   src: url("../fonts/AeonikFono-Light.woff2") format("woff2"), url("../fonts/AeonikFono-Light.woff") format("woff");
   font-weight: 300;
@@ -153,7 +57,7 @@
 }
 
 @font-face {
-  font-family: Aeonik Fono TRIAL;
+  font-family: AeonikFono;
   font-display: swap;
   src: url("../fonts/AeonikFono-Medium.woff2") format("woff2"), url("../fonts/AeonikFono-Medium.woff") format("woff");
   font-weight: 500;
@@ -161,7 +65,15 @@
 }
 
 @font-face {
-  font-family: Aeonik Fono TRIAL;
+  font-family: AeonikFono;
+  font-display: swap;
+  src: url("../fonts/AeonikFono-Regular.woff2") format("woff2"), url("../fonts/AeonikFono-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: AeonikFono;
   font-display: swap;
   src: url("../fonts/AeonikFono-Thin.woff2") format("woff2"), url("../fonts/AeonikFono-Thin.woff") format("woff");
   font-weight: 100;
@@ -190,7 +102,7 @@ body {
 body {
   color: #000;
   line-height: 1;
-  font-family: "Aeonik Fono TRIAL";
+  font-family: "AeonikFono";
   font-size: 1rem;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
@@ -202,7 +114,7 @@ body {
 input,
 button,
 textarea {
-  font-family: "Aeonik Fono TRIAL";
+  font-family: "AeonikFono";
   font-size: inherit;
   line-height: inherit;
 }
@@ -442,7 +354,6 @@ summary {
   gap: 10px;
   color: var(--scalato-yellow, #fcb337);
   /* Button 2 */
-  font-family: Aeonik Fono TRIAL;
   font-size: 24px;
   line-height: 120%;
   letter-spacing: 2.4px;
@@ -451,7 +362,8 @@ summary {
 }
 
 .yellow-link img {
-  height: 22px;
+  height: 18px;
+  rotate: 90deg;
 }
 
 .yellow-link.posabs {
@@ -461,6 +373,10 @@ summary {
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.yellow-link._mob {
+  display: none;
 }
 
 .yellow-link.button {
@@ -478,6 +394,7 @@ summary {
   top: 0;
   padding: 40px;
   z-index: 10;
+  background: transparent;
 }
 
 .header._bg {
@@ -485,6 +402,10 @@ summary {
 }
 
 .header._header2 {
+  background: transparent;
+}
+
+.header._header2._bg {
   background: #fff;
 }
 
@@ -529,7 +450,6 @@ summary {
   color: var(--white, #fff);
   text-align: center;
   /* Caption 1 */
-  font-family: Aeonik Fono TRIAL;
   font-size: 16px;
   line-height: 110%;
   /* 17.6px */
@@ -551,10 +471,6 @@ summary {
 html.menu-open .menu__body {
   display: block;
   left: 0;
-}
-
-.header__mob {
-  display: none;
 }
 
 .icon-menu {
@@ -587,15 +503,14 @@ html.menu-open .menu__body {
   margin-bottom: 13px;
   color: var(--white, #fff);
   /* H3 */
-  font-family: Aeonik Fono TRIAL;
   font-size: 37px;
 }
 
 .footer__text {
+  font-family: "Aeonik";
   margin-bottom: 37px;
   color: var(--white, #fff);
   /* Text 2 */
-  font-family: Aeonik Fono TRIAL;
   font-size: 16px;
   line-height: 120%;
   /* 120% */
@@ -617,7 +532,7 @@ html.menu-open .menu__body {
 
 .footer__privacy {
   color: var(--white, #fff);
-  font-family: Aeonik Fono TRIAL;
+  font-family: "Aeonik";
   font-size: 13px;
   line-height: 112%;
   margin-top: 60px;
@@ -628,6 +543,7 @@ html.menu-open .menu__body {
 }
 
 .footer__right {
+  font-family: "Aeonik";
   -webkit-box-flex: 0;
       -ms-flex: 0 1 53%;
           flex: 0 1 53%;
@@ -639,7 +555,6 @@ html.menu-open .menu__body {
 
 .footer__subtitle {
   color: var(--white, #fff);
-  font-family: Aeonik Fono TRIAL;
   font-size: 16px;
   font-weight: 700;
   line-height: 112%;
@@ -649,7 +564,6 @@ html.menu-open .menu__body {
 
 .footer__list-item {
   color: var(--white, #fff);
-  font-family: Aeonik Fono TRIAL;
   font-size: 16px;
   font-weight: 400;
   line-height: 112%;
@@ -684,7 +598,6 @@ html.menu-open .menu__body {
 
 .secmain__title {
   /* H1 */
-  font-family: Aeonik Fono TRIAL;
   font-size: 93px;
   font-weight: 300;
   line-height: 110%;
@@ -694,6 +607,7 @@ html.menu-open .menu__body {
 }
 
 .secmain__text {
+  font-family: "Aeonik";
   margin-bottom: 62px;
   /* Text 1 */
   font-size: 20px;
@@ -782,7 +696,6 @@ html.menu-open .menu__body {
 .now__title {
   text-align: center;
   /* H2 */
-  font-family: Aeonik Fono TRIAL;
   font-size: 54px;
   font-style: normal;
   font-weight: 400;
@@ -847,7 +760,6 @@ html.menu-open .menu__body {
 
 .spec__title {
   margin-bottom: 15px;
-  font-family: Aeonik Fono TRIAL;
   font-size: 50px;
   letter-spacing: 7.5px;
   display: inline-block;
@@ -856,7 +768,6 @@ html.menu-open .menu__body {
 
 .spec__title span {
   color: var(--white, #fff);
-  font-family: Aeonik Fono TRIAL;
   font-size: 100px;
 }
 
@@ -903,7 +814,6 @@ html.menu-open .menu__body {
 }
 
 .spec__small {
-  font-family: Aeonik Fono TRIAL;
   font-size: 30px;
 }
 
@@ -956,7 +866,6 @@ html.menu-open .menu__body {
   margin-bottom: 77px;
   text-align: center;
   /* H2 */
-  font-family: Aeonik Fono TRIAL;
   font-size: 54px;
 }
 
@@ -1035,7 +944,6 @@ html.menu-open .menu__body {
 
 .our__link-title {
   /* H4 */
-  font-family: Aeonik Fono TRIAL;
   font-size: 30px;
   line-height: 100%;
   /* 30px */
@@ -1046,7 +954,6 @@ html.menu-open .menu__body {
 .our__link-text {
   max-width: 147px;
   /* Caption 1 */
-  font-family: Aeonik Fono TRIAL;
   font-size: 16px;
   line-height: 110%;
   /* 17.6px */
@@ -1082,6 +989,8 @@ html.menu-open .menu__body {
 .our__img-hover {
   height: 100%;
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .our__img-center {
@@ -1166,6 +1075,7 @@ html.menu-open .menu__body {
 }
 
 .specific__text {
+  font-family: "Aeonik";
   font-size: 18px;
   line-height: 120%;
 }
@@ -1225,6 +1135,7 @@ html.menu-open .menu__body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  font-family: "Aeonik";
 }
 
 .checkbox__text._black {
@@ -1248,6 +1159,7 @@ textarea {
   padding: 11px 15px;
   border: 1px solid #eee;
   border-radius: 2px;
+  font-family: "Aeonik";
 }
 
 .input.input-grey {
@@ -1332,7 +1244,6 @@ textarea.input {
 .request__title {
   margin-bottom: 20px;
   /* H 1.5 */
-  font-family: Aeonik Fono TRIAL;
   font-size: 75px;
   font-weight: 300;
   line-height: 110%;
@@ -1341,7 +1252,7 @@ textarea.input {
 
 .request__text {
   /* Text 1 */
-  font-family: Aeonik Fono TRIAL;
+  font-family: "Aeonik";
   font-size: 23px;
   line-height: 133%;
   /* 133.333% */
@@ -1381,7 +1292,6 @@ textarea.input {
 
 .checkbox__label {
   /* Text 3 */
-  font-family: Aeonik Fono TRIAL;
   font-size: 16px;
   line-height: 112%;
   /* 112.5% */
@@ -1411,15 +1321,14 @@ textarea.input {
 .req__title {
   margin-bottom: 18px;
   /* H2 */
-  font-family: Aeonik Fono TRIAL;
   font-size: 54px;
 }
 
 .req__text {
   margin-bottom: 56px;
   /* Text 2 */
-  font-family: Aeonik Fono TRIAL;
-  font-size: 18px;
+  font-family: "Aeonik";
+  font-size: 20px;
   line-height: 120%;
   /* 120% */
 }
@@ -1434,7 +1343,6 @@ textarea.input {
 .materials__title {
   text-align: center;
   /* H0 */
-  font-family: Aeonik Fono TRIAL;
   font-size: 10vw;
   font-style: normal;
   font-weight: 300;
@@ -1480,7 +1388,6 @@ textarea.input {
 .techno__title {
   margin-bottom: 18px;
   /* H2 */
-  font-family: Aeonik Fono TRIAL;
   font-size: 54px;
   max-width: 400px;
 }
@@ -1524,7 +1431,7 @@ textarea.input {
 .techno__text {
   max-width: 505px;
   /* Text 2 */
-  font-family: Aeonik Fono TRIAL;
+  font-family: "Aeonik";
   font-size: 18px;
   line-height: 120%;
   /* 120% */
@@ -1566,7 +1473,6 @@ textarea.input {
   color: var(--white, #fff);
   text-align: center;
   /* H0 */
-  font-family: Aeonik Fono TRIAL;
   font-size: 10vw;
   font-weight: 300;
   line-height: 110%;
@@ -1601,7 +1507,6 @@ textarea.input {
 
 .aboutmain__title {
   /* Caption 2 Selected */
-  font-family: Aeonik Fono TRIAL;
   font-size: 12px;
   line-height: 200%;
   /* 200% */
@@ -1613,7 +1518,6 @@ textarea.input {
 
 .aboutmain__text {
   /* Caption 2 Selected */
-  font-family: Aeonik Fono TRIAL;
   font-size: 16px;
   line-height: 200%;
   /* 200% */
@@ -1630,7 +1534,7 @@ textarea.input {
   z-index: 2;
   margin-bottom: 48px;
   text-align: left;
-  font-family: Aeonik Fono TRIAL;
+  font-family: "Aeonik";
   font-size: 24px;
   font-weight: 400;
   line-height: 130%;
@@ -1672,11 +1576,9 @@ textarea.input {
 
 .find__title {
   margin-bottom: 26px;
-  font-family: Aeonik Fono TRIAL;
   font-size: 66px;
   line-height: 100%;
   /* 30px */
-  letter-spacing: 4.5px;
 }
 
 .find__title._small {
@@ -1684,7 +1586,7 @@ textarea.input {
 }
 
 .find__text {
-  font-family: Aeonik Fono TRIAL;
+  font-family: "Aeonik";
   font-size: 24px;
   line-height: 133%;
   /* 133.333% */
@@ -1726,7 +1628,6 @@ textarea.input {
   border-top: 2px solid #fff;
   color: var(--white, #fff);
   /* H4 */
-  font-family: Aeonik Fono TRIAL;
   font-size: 26px;
   font-weight: 400;
   line-height: 100%;
@@ -1762,6 +1663,7 @@ textarea.input {
 }
 
 .spollers__body {
+  font-family: "Aeonik";
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1787,7 +1689,6 @@ textarea.input {
 
 .spollers__body-title {
   margin-bottom: 17px;
-  font-family: Aeonik Fono TRIAL;
   font-size: 16px;
   font-weight: 400;
   line-height: 110%;
@@ -1797,7 +1698,6 @@ textarea.input {
 }
 
 .spollers__body-text {
-  font-family: Aeonik Fono TRIAL;
   font-size: 18px;
   font-weight: 400;
   line-height: 120%;
@@ -1820,7 +1720,6 @@ textarea.input {
   color: var(--black, #000);
   text-align: center;
   /* H0 */
-  font-family: Aeonik Fono TRIAL;
   font-size: 10vw;
   font-weight: 300;
   line-height: 110%;
@@ -1831,7 +1730,7 @@ textarea.input {
 .evolve__text {
   position: relative;
   z-index: 2;
-  font-family: Aeonik Fono TRIAL;
+  font-family: "Aeonik";
   font-size: 20px;
   font-weight: 400;
   line-height: 133%;
@@ -1878,7 +1777,6 @@ textarea.input {
 
 .evolve__item-name {
   /* H4 */
-  font-family: Aeonik Fono TRIAL;
   font-size: 30px;
   line-height: 100%;
   /* 30px */
@@ -1888,7 +1786,6 @@ textarea.input {
 }
 
 .evolve__item-job {
-  font-family: Aeonik Fono TRIAL;
   font-size: 16px;
   line-height: 112%;
   /* 112.5% */
@@ -1898,7 +1795,6 @@ textarea.input {
   position: relative;
   z-index: 2;
   margin-bottom: 35px;
-  font-family: Aeonik Fono TRIAL;
   font-size: 36px;
   max-width: 715px;
 }
@@ -1911,7 +1807,6 @@ textarea.input {
   position: relative;
   z-index: 2;
   /* Caption 1 */
-  font-family: Aeonik Fono TRIAL;
   font-size: 16px;
   line-height: 110%;
   /* 17.6px */
@@ -1960,7 +1855,6 @@ textarea.input {
 .clients__title {
   margin-bottom: 60px;
   /* H 1.5 */
-  font-family: Aeonik Fono TRIAL;
   font-size: 74px;
   font-weight: 300;
   line-height: 110%;
@@ -1971,7 +1865,6 @@ textarea.input {
 
 .clients__text {
   /* Caption 1 */
-  font-family: Aeonik Fono TRIAL;
   font-size: 16px;
   line-height: 110%;
   /* 17.6px */
@@ -2028,7 +1921,6 @@ textarea.input {
   color: var(--black, #000);
   text-align: center;
   /* Caption 2 */
-  font-family: Aeonik Fono TRIAL;
   font-size: 12px;
   line-height: 200%;
   /* 200% */
@@ -2041,7 +1933,6 @@ textarea.input {
 
 .product__name {
   margin-bottom: 14px;
-  font-family: Aeonik Fono TRIAL;
   font-size: 90px;
   font-weight: 300;
   line-height: 110%;
@@ -2049,6 +1940,7 @@ textarea.input {
 }
 
 .product__about {
+  font-family: "Aeonik";
   margin-bottom: 53px;
   font-size: 24px;
   line-height: 133%;
@@ -2139,6 +2031,7 @@ textarea.input {
 }
 
 .pluses__item-text {
+  font-family: "Aeonik";
   font-size: 18px;
   font-weight: 400;
   line-height: 120%;
@@ -2326,7 +2219,6 @@ textarea.input {
   gap: 50px;
   color: var(--light-grey, #adadad);
   /* Caption 2 */
-  font-family: Aeonik Fono TRIAL;
   font-size: 12px;
   line-height: 200%;
   /* 200% */
@@ -2368,6 +2260,7 @@ textarea.input {
   padding-top: 220px;
   padding-bottom: 120px;
   color: var(--black, #000);
+  background: var(--offwhite, #f0f1f3);
 }
 
 .privacy__box {
@@ -2395,6 +2288,7 @@ textarea.input {
 }
 
 .privacy__text {
+  font-family: "Aeonik";
   -webkit-box-flex: 0;
       -ms-flex: 0 1 64%;
           flex: 0 1 64%;
@@ -2458,10 +2352,6 @@ textarea.input {
 }
 
 @media (max-width: 61.99875em) {
-  .header._header2 {
-    background: var(--dark-grey-1, #282828);
-  }
-
   .header__link {
     display: none;
   }
@@ -2493,14 +2383,6 @@ textarea.input {
 
   .menu__link.header2-link {
     color: #fff;
-  }
-
-  .header__desk {
-    display: none;
-  }
-
-  .header__mob {
-    display: inline-block;
   }
 
   .icon-menu {
@@ -2773,7 +2655,6 @@ textarea.input {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 100%;
             flex: 1 1 100%;
-    text-align: center;
     max-width: none;
   }
 
@@ -2796,6 +2677,18 @@ textarea.input {
     transition: height 0.2s;
   }
 
+  .yellow-link._mob {
+    display: block;
+    bottom: 15px;
+    right: 15px;
+    position: absolute;
+    font-size: 16px;
+  }
+
+  .header {
+    padding: 16px;
+  }
+
   .footer__right {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -2807,13 +2700,19 @@ textarea.input {
   }
 
   .secmain__bg {
-    background: url("../img/01.jpg") 75% 50px no-repeat;
+    background: url("../img/01.jpg") 75% -30px no-repeat;
     background-size: cover;
   }
 
   .secmain__title {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 400;
+  }
+
+  .secmain__title span {
+    white-space: nowrap;
+    width: 100%;
+    display: inline-block;
   }
 
   .secmain .swiper-pagination {
@@ -2833,6 +2732,11 @@ textarea.input {
 
   .spec__title span {
     font-size: 54px;
+  }
+
+  .our.our-tires {
+    padding-top: 86px;
+    padding-bottom: 40px;
   }
 
   .our {
@@ -2858,6 +2762,10 @@ textarea.input {
             transform: translate(-50%, 0);
   }
 
+  .specific__title {
+    letter-spacing: 4.5px;
+  }
+
   .request {
     padding-top: 60px;
     padding-bottom: 73px;
@@ -2875,7 +2783,7 @@ textarea.input {
   }
 
   .request__title {
-    font-size: 54px;
+    font-size: 40px;
   }
 
   .request__form {
@@ -2898,6 +2806,10 @@ textarea.input {
     padding-bottom: 320px;
   }
 
+  .req__title {
+    font-size: 40px;
+  }
+
   .materials {
     padding-top: 160px;
     padding-bottom: 160px;
@@ -2912,12 +2824,12 @@ textarea.input {
   }
 
   .aboutmain {
-    padding-top: 250px;
+    padding-top: 173px;
   }
 
   .aboutmain__bg {
     font-size: 16vw;
-    top: 170px;
+    top: 86px;
   }
 
   .aboutmain__box {
@@ -2986,13 +2898,21 @@ textarea.input {
   }
 
   .evolve {
-    padding-top: 300px;
+    padding-top: 250px;
   }
 
   .evolve__bg {
-    top: 160px;
+    top: 86px;
     font-size: 16vw;
     font-weight: 400;
+  }
+
+  .evolve__text._right {
+    margin-bottom: 40px;
+  }
+
+  .evolve__text {
+    margin-bottom: 40px;
   }
 
   .evolve__box {
@@ -3024,11 +2944,20 @@ textarea.input {
   }
 
   .product__bg {
-    width: 150%;
+    width: 100%;
+  }
+
+  .product__top-box {
+    padding-top: 316px;
   }
 
   .product__name {
     font-size: 54px;
+  }
+
+  .pluses__box {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 
   .pluses__item {
@@ -3047,8 +2976,29 @@ textarea.input {
     font-size: 40px;
   }
 
+  .specs {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .spollers__specs-text:last-child {
+    text-align: left;
+  }
+
+  .spollers__specs-text {
+    text-align: left;
+    min-width: 0;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 45%;
+            flex: 0 1 45%;
+  }
+
   .info {
     right: -180px;
+  }
+
+  .privacy {
+    padding-top: 86px;
   }
 
   .privacy__text {
@@ -3071,19 +3021,42 @@ textarea.input {
   }
 
   .secmain__container {
-    padding-top: 265px;
+    padding-top: 225px;
+  }
+
+  .secmain__text {
+    max-width: 290px;
+    margin-bottom: 34px;
   }
 
   .secmain .swiper {
-    max-height: 804px;
+    max-height: 775px;
+  }
+
+  .now__title {
+    font-size: 40px;
+    margin-bottom: 46px;
+  }
+
+  .our__title {
+    font-size: 40px;
   }
 
   .our__link {
     height: 358px;
   }
 
+  .our__img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+
   .specific__block {
     padding-bottom: 243px;
+  }
+
+  .specific__title {
+    font-size: 30px;
   }
 
   .spollers._specs {
@@ -3113,25 +3086,11 @@ textarea.input {
   }
 
   .spollers__specs-item {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
 
   .spollers__specs-item:last-child {
     margin-bottom: 0;
-  }
-
-  .spollers__specs-text:last-child {
-    text-align: center;
-  }
-
-  .spollers__specs-text {
-    min-width: 0px;
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 100%;
-            flex: 1 1 100%;
-    text-align: center;
   }
 }
 
