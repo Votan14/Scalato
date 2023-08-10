@@ -199,6 +199,18 @@ h6 {
   padding-right: 25px;
 }
 
+[data-showmore-button] span:last-child {
+  display: none;
+}
+
+._showmore-active [data-showmore-button] span {
+  display: none;
+}
+
+._showmore-active [data-showmore-button] span:last-child {
+  display: block;
+}
+
 .fp-init body {
   overflow: hidden;
   -ms-touch-action: none;
@@ -392,6 +404,15 @@ summary {
       touch-action: pan-y;
 }
 
+.showmore__btn {
+  margin-top: 10px;
+  color: var(--white, #fff);
+  font-family: "Aeonik";
+  font-size: 13px;
+  line-height: 112%;
+  text-decoration: underline;
+}
+
 .header {
   position: fixed;
   width: 100%;
@@ -448,7 +469,7 @@ summary {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 85px;
+  gap: 5vw;
 }
 
 .menu__link {
@@ -470,7 +491,7 @@ summary {
 
 .menu__link:hover {
   text-decoration: underline;
-  font-weight: 700;
+  text-shadow: 0 0 0.65px #fff, 0 0 0.65px #fff;
 }
 
 html.menu-open .menu__body {
@@ -540,7 +561,6 @@ html.menu-open .menu__body {
   font-family: "Aeonik";
   font-size: 13px;
   line-height: 112%;
-  margin-top: 60px;
 }
 
 .footer__privacy a {
@@ -599,6 +619,7 @@ html.menu-open .menu__body {
 .secmain__container {
   padding-top: 315px;
   padding-bottom: 164px;
+  height: 100%;
 }
 
 .secmain__title {
@@ -632,8 +653,6 @@ html.menu-open .menu__body {
 }
 
 .secmain .swiper {
-  height: 100%;
-  max-height: 904px;
   position: relative;
 }
 
@@ -671,6 +690,10 @@ html.menu-open .menu__body {
 
 .secmain .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: #fff;
+}
+
+.secmain .secmain__full {
+  height: 100%;
 }
 
 .secmain .secmain__full-box {
@@ -1289,6 +1312,10 @@ textarea.input {
 
 .request__check-box {
   margin-bottom: 16px;
+}
+
+.request__check-box._footer {
+  margin-bottom: 60px;
 }
 
 .checkbox {
@@ -2710,14 +2737,8 @@ textarea.input {
   }
 
   .secmain__title {
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 400;
-  }
-
-  .secmain__title span {
-    white-space: nowrap;
-    width: 100%;
-    display: inline-block;
   }
 
   .secmain .swiper-pagination {
@@ -3029,13 +3050,13 @@ textarea.input {
     padding-top: 225px;
   }
 
+  .secmain__title {
+    font-size: 46px;
+  }
+
   .secmain__text {
     max-width: 290px;
     margin-bottom: 34px;
-  }
-
-  .secmain .swiper {
-    max-height: 775px;
   }
 
   .now__title {
@@ -3096,6 +3117,10 @@ textarea.input {
 
   .spollers__specs-item:last-child {
     margin-bottom: 0;
+  }
+
+  .info {
+    display: none;
   }
 }
 
